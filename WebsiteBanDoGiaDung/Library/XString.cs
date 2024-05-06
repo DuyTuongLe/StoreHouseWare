@@ -9,6 +9,7 @@ using System.Web;
 namespace WebsiteBanDoGiaDung.Library
 {
     public static class XString
+
     {
         /// <summary>
         /// Mã hóa sang chuỗi dạng base 64

@@ -6,6 +6,7 @@ using System.Web;
 namespace WebsiteBanDoGiaDung.Models
 {
     public class ListOrder
+
     {
         public int ID { get; set; }
         public String CustomerName { get; set; }

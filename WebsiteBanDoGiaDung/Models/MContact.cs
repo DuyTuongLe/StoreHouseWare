@@ -10,6 +10,7 @@ using System.Web;
 
     [Table("Contact")]
     public class MContact
+
     {
         [Key]
         [Required]

@@ -11,6 +11,7 @@ namespace WebsiteBanDoGiaDung.Library
     public class MailHelper
     {
         public void SendMail(String to, String subject, String content)
+
         {
             String mailAddress = "huynhdo1711@gmail.com";
             String mailPassword = "gialai988";

@@ -10,6 +10,7 @@ using System.Web;
 
     [Table("User")]
     public class MUser
+
     {
         [Key]
         [Required]

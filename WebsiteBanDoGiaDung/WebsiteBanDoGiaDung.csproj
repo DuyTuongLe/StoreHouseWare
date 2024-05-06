@@ -440,7 +440,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Data\" />
-    <Folder Include="Areas\Admin\Views\Base\" />
+    <Folder Include="Areas\Admin\Views\Bases\" />
     <Folder Include="Public\images\news\" />
     <Folder Include="Public\images\pages\" />
     <Folder Include="Public\images\post\" />

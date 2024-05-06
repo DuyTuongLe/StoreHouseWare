@@ -13,6 +13,7 @@ namespace WebsiteBanDoGiaDung.Controllers
         private WebsiteBanDoGiaDungDbContext db = new WebsiteBanDoGiaDungDbContext();
         // GET: Site
         public ActionResult Index(String slug = "")
+
         {
             int pageNumber = 1;
             Session["keywords"] = null;

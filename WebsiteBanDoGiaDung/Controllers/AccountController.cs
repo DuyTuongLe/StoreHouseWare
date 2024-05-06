@@ -20,6 +20,7 @@ namespace WebsiteBanDoGiaDung.Controllers
 
         [HttpPost]
         public JsonResult UserLogin(String User, String Password)
+
         {
             int count_username = db.Users.Where(m => m.Status == 1 && ((m.Phone).ToString() == User || m.Email == User || m.Name == User ) && m.Access == 0).Count();
             if (count_username == 0)

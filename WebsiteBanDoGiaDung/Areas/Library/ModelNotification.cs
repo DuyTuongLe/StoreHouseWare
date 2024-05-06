@@ -8,6 +8,7 @@ namespace WebsiteBanDoGiaDung
     public class ModelNotification
     {
         public String mgs { get; set; }
+
         public String mgs_type { get; set; }
     }
 }

@@ -10,6 +10,7 @@ using System.Web;
 
     [Table("Slider")]
     public class MSlider
+
     {
         [Key]
         [Required]

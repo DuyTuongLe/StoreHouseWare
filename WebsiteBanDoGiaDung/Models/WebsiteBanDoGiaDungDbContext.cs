@@ -9,6 +9,7 @@ using WebsiteBanDoGiaDung.Models;
 
 
     public class WebsiteBanDoGiaDungDbContext : DbContext
+
     {
         public WebsiteBanDoGiaDungDbContext() : base("name=StrConn")
         { }

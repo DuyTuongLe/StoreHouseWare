@@ -6,6 +6,7 @@ using System.Web;
 namespace WebsiteBanDoGiaDung.Library
 {
     public static class Notification
+
     {
         public static bool has_flash()
         {

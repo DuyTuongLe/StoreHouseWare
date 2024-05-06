@@ -10,6 +10,7 @@ namespace WebsiteBanDoGiaDung
     public class MvcApplication : System.Web.HttpApplication
     {
         protected void Application_Start()
+
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
@@ -17,7 +18,6 @@ namespace WebsiteBanDoGiaDung
         protected void Session_Start()
         {
             Session["Notification"] = "";
-
             // Administrators
             Session["Admin_Name"] = null;
             Session["Admin_ID"] = null;
@@ -28,8 +28,6 @@ namespace WebsiteBanDoGiaDung
             // Customer
             Session["User_Name"] = null;
             Session["User_ID"] = null;
-
-
             Session["Cart"] = null;
             Session["keywords"] = null;
             Session["Status"] = null;

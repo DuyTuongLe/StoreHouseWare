@@ -14,6 +14,7 @@ public static class XString
     /// <param name="s">Chuỗi cần mã hóa</param>
     /// <returns>Chuỗi đã mã hóa</returns>
     public static String ToBase64(this String s)
+
     {
         if (s != null)
         {

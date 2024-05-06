@@ -7,6 +7,7 @@ using System.Web;
 
 
     public class PostTopic
+
     {
         public int PostId { get; set; }
         public string PostName { get; set; }

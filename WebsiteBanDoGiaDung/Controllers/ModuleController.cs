@@ -16,6 +16,7 @@ namespace WebsiteBanDoGiaDung.Controllers
             return View("_Categories", db.Categorys.Where(m=> m.Status == 1).ToList());
         }
         public ActionResult SlideShow()
+
         {
             // Position = 1 = SlideShow
             return View("_SlideShow", db.Sliders.Where(m => m.Status == 1 && m.Position == "1").ToList());

@@ -18,6 +18,7 @@ namespace WebsiteBanDoGiaDung.Controllers
         }
 
         public ActionResult Add(int pid, int qty)
+
         {
             var p = db.Products.Where(m => m.Status == 1 && m.ID == pid).First();
 

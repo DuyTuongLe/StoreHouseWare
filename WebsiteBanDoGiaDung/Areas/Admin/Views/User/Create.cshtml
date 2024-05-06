@@ -25,7 +25,7 @@
                                                 <i class="fas fa-save"></i>&nbsp; Save
                                             </button>
                                             <button type="button" class="btn btn-danger btn-sm">
-                                                <a href="~/Admin/User" class="text-white"><i class="fas fa-door-open"></i>&nbsp; Thoát</a>
+                                                <a href="~/Admin/User" class="text-white"><i class="fas fa-door-open"></i>&nbsp; Thoát </a>
                                             </button>
                                         </div>
                                     </div>
@@ -54,7 +54,7 @@
                                             <div class="form-group">
                                                 @Html.Label("Địa chỉ ", htmlAttributes: new { @class = "control-label col-12" })
                                                 <div class="">
-                                                    @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control", placeholder = "Họ tên" } })
+                                                    @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control", placeholder = "Họ và tên" } })
                                                     @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
                                                 </div>
                                             </div>

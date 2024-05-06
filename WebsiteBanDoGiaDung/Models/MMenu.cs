@@ -10,6 +10,7 @@ using System.Web;
 
     [Table("Menu")]
     public class MMenu
+
     {
         [Key]
         [Required]

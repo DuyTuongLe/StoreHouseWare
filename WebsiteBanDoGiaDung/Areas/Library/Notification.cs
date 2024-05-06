@@ -8,6 +8,7 @@ namespace WebsiteBanDoGiaDung
     public static class Notification
     {
         public static bool has_flash()
+
         {
             if (System.Web.HttpContext.Current.Session["Notification"].Equals(""))
             {

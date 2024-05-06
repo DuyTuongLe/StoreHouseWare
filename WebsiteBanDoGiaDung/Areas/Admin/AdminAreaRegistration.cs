@@ -13,6 +13,7 @@ namespace WebsiteBanDoGiaDung.Areas.Admin
         }
 
         public override void RegisterArea(AreaRegistrationContext context) 
+
         {
             context.MapRoute(
                "Profiles",

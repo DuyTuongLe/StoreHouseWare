@@ -10,6 +10,7 @@ namespace WebsiteBanDoGiaDung
     {
         WebsiteBanDoGiaDungDbContext db = new WebsiteBanDoGiaDungDbContext();
         public bool KiemTraSlug(String Table, String Slug, int? id)
+
         {
             switch (Table)
             {

@@ -10,6 +10,7 @@ using System.Web;
 
     [Table("Order")]
     public class MOrder
+
     {
         [Key]
         [Required]
