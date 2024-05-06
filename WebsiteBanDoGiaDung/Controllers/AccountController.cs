@@ -87,6 +87,9 @@ namespace WebsiteBanDoGiaDung.Controllers
                 System.Web.HttpContext.Current.Response.Redirect("~/");
             }
             var list = db.Orders.ToList();
+            ViewBag.Hoanthanh = db.Orders.Where(m => m.Status == 3).Count();
+            ViewBag.ChoXuLy = db.Orders.Where(m => m.Status == 1).Count();
+            ViewBag.DangXuLy = db.Orders.Where(m => m.Status == 2).Count();
             return View("_ActionOrder", list);
         }
         public ActionResult OrderDetails(int id)
@@ -121,7 +124,7 @@ namespace WebsiteBanDoGiaDung.Controllers
         {
             try
             {
-                var checkPM = db.Users.Any(m => m.Phone == user.Phone || m.Email.ToLower().Equals(user.Email.ToLower()));
+                var checkPM = db.Users.Any(m => m.Phone == user.Phone && m.Email.ToLower().Equals(user.Email.ToLower()));
                 if (checkPM)
                 {
                     return Json(new { Code = 1, Message = "Số điện thoại hoặc Email đã được sử dụng." });

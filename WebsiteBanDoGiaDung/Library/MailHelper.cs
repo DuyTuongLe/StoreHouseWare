@@ -12,7 +12,7 @@ namespace WebsiteBanDoGiaDung.Library
     {
         public void SendMail(String to, String subject, String content)
         {
-            String mailAddress = "legialai98.hitu@gmail.com";
+            String mailAddress = "huynhdo1711@gmail.com";
             String mailPassword = "gialai988";
 
             MailMessage msg = new MailMessage(new MailAddress(mailAddress), new MailAddress(to));
