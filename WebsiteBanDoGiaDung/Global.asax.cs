@@ -5,14 +5,18 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
+
 namespace WebsiteBanDoGiaDung
 {
+
     public class MvcApplication : System.Web.HttpApplication
     {
+
         protected void Application_Start()
 
         {
             AreaRegistration.RegisterAllAreas();
+
             RouteConfig.RegisterRoutes(RouteTable.Routes);
         }
         protected void Session_Start()
@@ -25,6 +29,8 @@ namespace WebsiteBanDoGiaDung
             Session["Admin_Address"] = null;
             Session["Admin_Email"] = null;
             Session["Admin_Created_at"] = null;
+
+
             // Customer
             Session["User_Name"] = null;
             Session["User_ID"] = null;
